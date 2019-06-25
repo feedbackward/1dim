@@ -4,6 +4,9 @@ In this repository, we provide example code which gives the complete implementat
 
  - Distribution-robust mean estimation via smoothed random perturbations.
 
+__Author and maintainer:__<br>
+<a href="https://feedbackward.com/">Matthew J. Holland</a> (Osaka University, ISIR)
+
 
 ## Overview
 
@@ -49,7 +52,3 @@ The raw results (before averaging, can be rather large) will be stored in `resul
  <img src="sample_Normal.png" alt="sample: over ratios (Normal)" width="300"><img src="sample_logNormal.png" alt="sample: over ratios (log-Normal)" width="300">
 
 The above figure is an example of the results that can be generated using the demo notebook.
-
-
-__Author and maintainer:__<br>
-<a href="https://feedbackward.com/">Matthew J. Holland</a> (Osaka University, ISIR)
