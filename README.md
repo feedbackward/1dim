@@ -45,9 +45,10 @@ $ conda activate 1dim
 ```
 The raw results (before averaging, can be rather large) will be stored in `results`. The interactive code in this notebook also uses `config.py`, and assumes that results are present for all methods specified in the configuration file.
 
-
  <img src="sample_legend.png" alt="sample" width="600"><br>
  <img src="sample_Normal.png" alt="sample: over ratios (Normal)" width="300"><img src="sample_logNormal.png" alt="sample: over ratios (log-Normal)" width="300">
+
+The above figure is an example of the results that can be generated using the demo notebook.
 
 
 __Author and maintainer:__<br>
