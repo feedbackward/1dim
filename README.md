@@ -7,11 +7,11 @@ In this repository, we provide example code which gives the complete implementat
 
 ## Overview
 
-In this set of experiments, we carry out a series of empirical tests of the performance of different robust mean estimators on $\mathbb{R}$, under weak assumptions on the underlying data, namely that the variance $\sigma^{2} = \mathbf{E}(X-\mathbf{E}X)^{2}$ is finite. In particular, here we consider a set of experiments where in addition to the underlying distribution and sample size, we also tightly control the ratio $\mathbf{E}X / \sigma$.
+In this set of experiments, we carry out a series of empirical tests of the performance of different robust mean estimators on the real line, under weak assumptions on the underlying data, namely that the variance is finite. In particular, here we consider a set of experiments where in addition to the underlying distribution and sample size, we also tightly control the ratio of the mean to the standard deviation.
 
 The basic contents of this repository are as follows:
 
-- `bounds.py`: Computation of deviation bounds with $1-2\delta$ probability for each method.
+- `bounds.py`: Computation of high-probability deviation bounds for each method.
 - `config.py`: Configuration file for experiment/method parameters.
 - `data.py`: Routines for generating the randomized data as specified in the configuration file.
 - `demo.ipynb`: After running the experiments, this Jupyter notebook includes scripts for generating figures based on the saved performance results.
@@ -29,11 +29,11 @@ $ conda create -n 1dim python=3.6 scipy jupyter matplotlib
 ```
 to prepare the necessary software.
 
-All experimental parameters are controlled in `config.py`, and can be tweaked freely. Some key points are as follows:
+All experimental parameters are controlled in `config.py`, and can be tweaked freely. Some basic points are as follows:
 
-- Values of $n$ to be tests: `_nvals`.
-- Range of mean-SD ratio $r(X) = \mathbf{E}X / \text{sd}(X)$ to be tested: `_ratios`.
+- Range of mean-SD ratio to be tested: `_ratios`.
 - "Variance levels" in the paper: controlled by `_sd` and `_sdlog`.
+- Sample sizes to be tested: `_nvals`.
 
 
 ## Running the demo
