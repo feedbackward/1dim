@@ -1,8 +1,9 @@
 # 1dim: estimators using smoothed random perturbations
 
-In this repository, we provide example code which gives the complete implementation of all experiments carried out in our following (preprint) paper:
+In this repository, we provide example code which gives the complete implementation of the numerical experiments carried out the following papers:
 
- - Distribution-robust mean estimation via smoothed random perturbations.
+ - PAC-Bayes under heavy tails (NeurIPS 2019, <a href="https://arxiv.org/abs/1905.07900">arXiv</a>).
+ - Distribution-robust mean estimation via smoothed random perturbations (<a href="https://arxiv.org/abs/1906.10300">arXiv</a>).
 
 __Author and maintainer:__<br>
 <a href="https://feedbackward.com/">Matthew J. Holland</a> (Osaka University, ISIR)
