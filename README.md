@@ -2,7 +2,7 @@
 
 In this repository, we provide example code which gives the complete implementation of the numerical experiments carried out the following papers:
 
- - PAC-Bayes under heavy tails (NeurIPS 2019, <a href="https://arxiv.org/abs/1905.07900">arXiv</a>).
+ - PAC-Bayes under heavy tails (<a href="https://papers.nips.cc/paper/8539-pac-bayes-under-potentially-heavy-tails">NeurIPS 2019</a>, <a href="https://github.com/feedbackward/1dim/blob/master/poster_A0.pdf">Poster</a>).
  - Distribution-robust mean estimation via smoothed random perturbations (<a href="https://arxiv.org/abs/1906.10300">arXiv</a>).
 
 __Author and maintainer:__<br>
