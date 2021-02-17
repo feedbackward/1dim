@@ -13,7 +13,7 @@ __Author and maintainer:__<br>
 
 In this set of experiments, we carry out a series of empirical tests of the performance of different robust mean estimators on the real line, under weak assumptions on the underlying data, namely that the variance is finite. In particular, here we consider a set of experiments where in addition to the underlying distribution and sample size, we also tightly control the ratio of the mean to the standard deviation.
 
-The basic contents of this repository are as follows:
+The basic contents of this repository (within the `1dim` sub-directory) are as follows:
 
 - `bounds.py`: Computation of high-probability deviation bounds for each method.
 - `config.py`: Configuration file for experiment/method parameters.
